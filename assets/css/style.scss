@@ -744,3 +744,109 @@ header{
         }
     }
 }
+#kids-news-section{
+    background-image: -webkit-linear-gradient(0deg, rgb(232, 90, 202) 0%, rgb(252, 78, 101) 100%);
+    padding-top: 120px;
+    padding-bottom: 90px;
+    position: relative;
+    .title-p{
+        margin-bottom: 55px;
+        text-align: center;
+        width: 659px;
+        position: relative;
+        left: 330px;
+        .title{
+            font-size: 36px;
+            color: #fff;
+            font-family: "Fredoka One",cursive;
+            margin-bottom: 20px;
+        }
+        .text{
+            color: #fff     ;
+            font-size: 16px;
+            margin: 0px;
+        }
+    }
+    .kids-news-inner{
+        background-color: #fff;
+        img{
+            height: 100%;
+            width: 100%;
+            transition: .3s;
+            transform: scale(1);
+        }
+        .news-about{
+            padding: 30px;
+            .kids-news-content{
+                margin-bottom: 20px;
+                display: flex;
+                .icon-text{
+                    font-size: 15px;
+                    margin-right: 15px;
+                    padding-right: 15px;
+                    display: flex;
+                    align-items: baseline;
+                    border-right: 1px solid #d9d9d9;
+                    height: 14px;
+                    i{
+                        padding-right: 5px;
+                    }
+                    .text-name{
+                        display: flex;
+                        p{
+                            margin-left: 3px;
+                            transition: all 0.3s ease-out 0s;
+                        }
+                        p:hover{
+                            color:#23cc88;
+                        }
+                    }
+                }
+                .icon-text:last-child{
+                    border: none;
+                }
+            }
+            .title{
+                font-size: 24px;
+                line-height: 30px;
+                color: #00394f;
+                transition: .6s cubic-bezier(.215,.61,.355,1);
+                margin-bottom: 25px;
+                font-weight: 700;
+            }
+            .text{
+                font-weight: 700;
+                color: #ff4f58;
+                font-size: 15px;
+            }
+        }
+    }
+    .kids-news-inner:hover .title{
+        text-decoration: underline;
+    }
+    .kids-news-inner:hover img{
+        transform: scale(1.05);
+        width: 100%;
+        height: 100%;
+    }
+}
+#kids-news-section::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-repeat: repeat-x;
+    top: 0px;
+    height: 20px;
+    background-image: url(/assets/images/section-notch-top.png);
+}
+#kids-news-section::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    background-image: url(/assets/images/section-notch-bottom.png);
+    background-repeat: repeat-x;
+    display: block;
+    width: 100%;
+    height: 20px;
+}
