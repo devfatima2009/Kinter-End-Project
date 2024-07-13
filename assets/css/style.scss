@@ -855,3 +855,146 @@ header{
     padding-bottom: 120px;
 }
 // main
+// footer
+footer{
+    background-image: url(/assets/images/footer-bg.jpg);
+    .footer-top{
+        .footer-top-inner{
+            display: flex;
+            gap: 30px;
+            padding: 35px 0px;
+            border-right: 1px solid #7346e0;
+            border-bottom: 1px solid #7346e0;
+            img{
+                height:50px;
+            }
+            .title-p{
+                .title{
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+                .text{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #fff;
+                }
+            }
+        }
+        .footer-top-inner3{
+            border-right: none;
+        }
+    }
+    .footer-bottom{
+        .footer-bottom-inner{
+            padding-top: 100px;
+            padding-bottom: 60px;
+            .title{
+                color: #fff;
+                font-weight: 700;
+                font-size: 24px;
+                margin-bottom: 25px;
+                padding-bottom: 30px;
+                position: relative;
+            }
+            .title::before{
+                content: "";
+                position: absolute;
+                bottom: 0px;
+                width: 60px;
+                height: 1px;
+                background: #804bff;
+            }
+            .text{
+                color: #fff;
+                margin-bottom: 23px;
+                line-height: 26px;
+            }
+        }
+        .footer-bottom-inner1{
+            .footer-social-links{
+                .title{
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 15px;
+                    margin-bottom: 14px;
+                    padding: 0px;
+                }
+                i{
+                    color: #fff;
+                    margin-right: 15px;
+                    font-size: 16px;
+                    transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+                }
+                i:hover{
+                    color: #23cc88;
+                }
+            }
+        }
+        .footer-bottom-inner2{
+            .img-text{
+                display: flex;
+                gap: 18px;
+                margin-bottom: 22px;
+                border-bottom: 1px solid #7346e0;
+                padding-bottom: 24px;
+                img{
+                    width: 100px;
+                    height: 80px;
+                }
+                .text{
+                    margin: 0px;
+                    .time{
+                        display: inline-block;
+                        margin-bottom: 5px;
+                    }
+                    .title{
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                }
+            }
+            .img-text:last-child{
+                border: none;
+            }
+        }
+        .footer-bottom-inner3{
+            .inp-mail{
+                color: #fff;
+                background-image: url(/assets/images/footer-bg.jpg);
+                outline: none;
+                border: 1px solid #7346e0;
+                margin-bottom: 25px;
+                padding: 0px 20px;
+                height: 56px;
+                width: 100%;
+                transition: .3s;
+                box-shadow:0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+            }
+            ::placeholder{
+                color: #fff;
+            }
+            .inp-mail:focus{
+                border: 1px solid #fff;
+            }
+            .btn{
+                color: #fff;
+                display: block;
+                background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+                font-size: 14px;
+                padding: 23px 34px;
+                line-height: 1;
+                border-radius: 2px;
+                box-shadow: 0px 4px 7px 0px rgba(38, 204, 133, 0.36);
+                letter-spacing: 1px;
+                outline: none;
+                font-weight: 700;
+                border: 0;
+            }
+        }
+    }
+}
+// footer
