@@ -82,9 +82,10 @@ header{
             .navbar{
                 display: flex;
                 justify-content: center;
-                gap: 33px;
-                padding: 0px 12px;
-                padding-left: 30px;
+                gap: 40px;
+                padding: 0px;
+                // padding: 0px 12px;
+                // padding-left: 30px;
                 margin: 0px;
                 height: 71px;
                 li{
@@ -115,15 +116,19 @@ header{
                                 padding: 9px 25px;
                                 font-size: 15px;
                                 margin: 0px;
+                                height: 40px;
                             }
                         }
                     }
                 }
                 .navbar-dropdown-menu:hover{
-                    a:hover{
-                        display: flex;
-                        align-items: center;
-                        padding: 0px;
+                    // a:hover:first-child{
+                    //     display: flex;
+                    //     align-items: center;
+                    //     padding: 0px;
+                    // }
+                    .link{
+                        color: #23cc88;
                     }
                     ul{
                         display: block;
@@ -143,7 +148,7 @@ header{
                             a:hover{
                                 color: #23cc88;
                                 margin: 0px;
-                                padding: 0px 25px;
+                                padding: 9px 25px;
                                 font-size: 15px;
                             }
                         }

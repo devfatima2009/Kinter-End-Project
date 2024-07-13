@@ -84,9 +84,8 @@ header .bottom-header .bottom-header-nav img {
 header .bottom-header .bottom-header-nav .navbar {
   display: flex;
   justify-content: center;
-  gap: 33px;
-  padding: 0px 12px;
-  padding-left: 30px;
+  gap: 40px;
+  padding: 0px;
   margin: 0px;
   height: 71px;
 }
@@ -119,11 +118,10 @@ header .bottom-header .bottom-header-nav .navbar .navbar-dropdown-menu ul li a {
   padding: 9px 25px;
   font-size: 15px;
   margin: 0px;
+  height: 40px;
 }
-header .bottom-header .bottom-header-nav .navbar .navbar-dropdown-menu:hover a:hover {
-  display: flex;
-  align-items: center;
-  padding: 0px;
+header .bottom-header .bottom-header-nav .navbar .navbar-dropdown-menu:hover .link {
+  color: #23cc88;
 }
 header .bottom-header .bottom-header-nav .navbar .navbar-dropdown-menu:hover ul {
   display: block;
@@ -143,7 +141,7 @@ header .bottom-header .bottom-header-nav .navbar .navbar-dropdown-menu:hover ul 
 header .bottom-header .bottom-header-nav .navbar .navbar-dropdown-menu:hover ul li a:hover {
   color: #23cc88;
   margin: 0px;
-  padding: 0px 25px;
+  padding: 9px 25px;
   font-size: 15px;
 }
 header .bottom-header .bottom-header-nav .btn {
