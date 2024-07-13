@@ -968,4 +968,53 @@ footer .footer-bottom .footer-bottom-inner3 .btn {
   outline: none;
   font-weight: 700;
   border: 0;
+}
+
+.end-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.end-box .copyright-box {
+  display: flex;
+  justify-content: space-between;
+}
+.end-box .copyright-box p {
+  margin: 0px;
+  line-height: 28px;
+  font-size: 16px;
+}
+.end-box .copyright-box p span {
+  color: #23cc88;
+  margin-left: 4px;
+}
+.end-box .copyright-box .program-links {
+  display: flex;
+  gap: 37px;
+  align-items: center;
+}
+.end-box .copyright-box .program-links .icon-program {
+  display: flex;
+  align-items: baseline;
+}
+.end-box .copyright-box .program-links .icon-program i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #3b5999;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 9px;
+}
+.end-box .copyright-box .program-links .icon-program .icon2 {
+  background-color: #dd4b39;
+}
+.end-box .copyright-box .program-links .icon-program .icon3 {
+  background-color: #55acee;
+}
+.end-box .copyright-box .program-links .icon-program .icon4 {
+  background-color: #bd081c;
+}
+.end-box .copyright-box .program-links .icon-program .icon5 {
+  background-color: #007bb6;
 }/*# sourceMappingURL=style.css.map */
