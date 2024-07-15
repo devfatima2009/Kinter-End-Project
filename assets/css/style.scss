@@ -180,6 +180,61 @@ header{
 // header
 // main
 #hero-section{
+    .class-about-box{
+        background: url(/assets/images/page-title-bg\ \(1\).jpg);
+        width: 100%;
+        padding-bottom: 170px;
+        padding-top: 170px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;    
+        .title-p{
+            .title{
+                color:#fff;
+                font-family: 'Fredoka One';
+                font-size: 48px;
+            }
+            .text-list{
+                list-style-type: none;
+                display: flex;
+                margin: 0px;
+                padding: 0px;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+                span{
+                    color: #fff;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    .class-about-box::before{
+        content: "";
+        position: absolute;
+        background-repeat: repeat-x;
+        display: block;
+        top: 150px;
+        width: 100%;
+        background-image: url(/assets/images/section-notch-top.png);
+        height: 20px;
+        z-index: 1000; 
+    }
+    .class-about-box::after{
+        content:"";
+        position: absolute;
+        display: block;
+        height: 20px;
+        background-image: url(/assets/images/section-notch-bottom.png);
+        bottom: 149px;
+        width: 100%;
+        background-repeat: repeat-x;
+        z-index: 1000;
+    }
     .slide-item{
         .img{
             img{
