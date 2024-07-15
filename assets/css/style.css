@@ -68,15 +68,16 @@ header .top-header .top-header-nav .right-nav li:first-child {
 }
 header .bottom-header {
   padding: 15px 0px;
+  position: sticky;
+  z-index: 1000;
+  background-color: #fff;
+  width: 100%;
 }
 header .bottom-header .bottom-header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  position: sticky;
-  top: 0px;
-  z-index: 100;
 }
 header .bottom-header .bottom-header-nav img {
   height: 100%;
