@@ -323,6 +323,43 @@ header .bottom-header .bottom-header-nav .btn {
   font-size: 18px;
 }
 
+#preference-about-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#preference-about-section .preference-item {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  gap: 55px;
+}
+#preference-about-section .preference-item img {
+  width: 640px;
+}
+#preference-about-section .preference-item .preference-box .title-p {
+  margin-bottom: 30px;
+  width: 587px;
+  padding-left: 14px;
+}
+#preference-about-section .preference-item .preference-box .title-p .title {
+  font-family: "Fredoka One";
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #00394f;
+}
+#preference-about-section .preference-item .preference-box .title-p .text {
+  margin: 0px;
+  line-height: 28px;
+  color: #555555;
+}
+#preference-about-section .preference-item .preference-box .preference-list li {
+  margin-bottom: 5px;
+}
+#preference-about-section .preference-item .preference-box .preference-list li a {
+  text-decoration: none;
+  color: #555555;
+}
+
 #feature-section {
   margin-top: 110px;
   margin-bottom: 80px;

@@ -347,6 +347,46 @@ header{
         font-size: 18px;
     }
 }
+#preference-about-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    .preference-item{
+        display: flex;
+        margin-top: 25px;
+        align-items: center;
+        gap: 55px;
+        img{
+            width:640px;
+        }
+        .preference-box{
+            .title-p{
+                margin-bottom: 30px;
+                width: 587px;
+                padding-left: 14px;
+                .title{
+                    font-family: 'Fredoka One';
+                    font-size: 36px;
+                    margin-bottom: 20px;
+                    color: #00394f;
+                }
+                .text{
+                    margin: 0px;
+                    line-height: 28px;
+                    color: #555555;
+                }
+            }
+            .preference-list{
+                li{
+                    margin-bottom: 5px;
+                    a{
+                        text-decoration: none;
+                        color: #555555;
+                    }
+                }
+            }
+        }
+    }
+}
 #feature-section{
     margin-top: 110px;
     margin-bottom: 80px;
